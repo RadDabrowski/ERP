@@ -1,0 +1,10 @@
+{% block content %}
+  <h1>Lista segmentów</h1>
+  <ul>
+    {% for segment in object_list %}
+      <li>{{ segment.name }}</li>
+    {% empty %}
+      <li>Brak produktów</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
