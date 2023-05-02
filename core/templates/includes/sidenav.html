@@ -1,0 +1,29 @@
+<div class="sidenav">
+     <ul class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Segmenty
+              </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a href="{% url 'new-segment' %}">Nowy segment</a></li>
+                <li><a href="{% url 'segment-list' %}">Lista segmentów</a></li>
+        </ul>
+     </ul>
+    <ul class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Kategorie
+              </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a href="{% url 'new-category' %}">Nowa kategoria</a></li>
+                <li><a href="{% url 'category-list' %}">Lista kategorii</a></li>
+        </ul>
+     </ul>
+    <ul class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Podkategorie
+              </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a href="{% url 'new-subcategory' %}">Nowe podkategorie</a></li>
+                <li><a href="{% url 'subcategory-list' %}">Lista podkategorii</a></li>
+        </ul>
+    </ul>
+</div>
